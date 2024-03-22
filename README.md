@@ -1,3 +1,3 @@
 # worknotes - a book
 
-This repository a collection or my worknotes turned into a portable book.
+A collection of my work notes turned into a portable book.
