@@ -1,15 +1,15 @@
-#import "/inc/_template.typ": *
+#import "/inc/template.typ": *
 #show: book.with(
   title: [m-one],
   author: "C Kunte",
   dedication: [_for my daughters_],
   publishing-info: [
-    #include("/inc/_pub.typ")
+    #include("/inc/pub.typ")
   ],
 )
 
 // preface
-#include "/inc/_preface.typ"
+#include "/inc/preface.typ"
 
 #outline(
   indent: 1em, 
@@ -41,6 +41,7 @@
 // wind and wave
 #include "/inc/wind.typ"
 #include "/inc/wavelength.typ"
+#include "/inc/wave.typ"
 #include "/inc/viv.typ"
 
 // stability and utilisation
