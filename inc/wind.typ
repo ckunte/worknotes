@@ -9,8 +9,6 @@ The following offers a way to visualize wind profile for a given $U_o$ and $t$ f
   caption: [Wind as per ISO 19901]
 ) <iw>
 
-#pagebreak(weak: true)
-
 Plot code to generate @iw is as follows.
 
 #let isowind = read("/src/isowind.py")

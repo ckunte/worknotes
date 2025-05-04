@@ -1,5 +1,5 @@
     #figure(
-      image("/img/apple-touch-icon-orig.png", width: 9%),
+      image("/img/ckunte.svg", width: 9%),
     )
 
     m-one

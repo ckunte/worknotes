@@ -37,7 +37,7 @@ where, $mu$ is the frictional coefficient of the orifice (hole) edge, _g_ is the
 Here is an example of a problem I've been working recently on.
 
 #figure(
-  image("/img/Dvt.svg", width: 120%),
+  image("/img/Dvt.svg", width: 100%),
   caption: [Time taken to flood jacket components for a range of hole diameters],
 ) <dvt>
 

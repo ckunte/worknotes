@@ -114,10 +114,16 @@ So, in a gist, that's the general theory to develop mean RSR and $gamma_E$, whic
 == Partial action factors and reserve strength ratios
 
 Extending the above concept to derive partial action factors and mean reserve strength ratio appropriate to the probability of failure of interest, Shell engineers documented indicative constants to represent key environments.#footnote[Efthymiou, M., van de Graaf, J.W., _Reliability Based Design and Re-assessment of Fixed Steel Platforms_, EP97-5050, February 1997.]
+
 #figure(
-  image("/img/expcat-L1.png", width: 120%),
+  image("/img/expcat-L1.png", width: 100%),
   caption: [Probability density for exposure level L1 ($P_f$ = 3E-5/y)]
 ) <l1>
+
+#figure(
+  image("/img/expcat-L2.png", width: 100%),
+  caption: [Probability density for exposure level L2 ($P_f$ = 5E-4/y)]
+) <l2>
 
 Quoting from my colleagues' article, published in Offshore Technology to describe LSM:
 
@@ -126,11 +132,6 @@ Quoting from my colleagues' article, published in Offshore Technology to describ
 
   This enabled analysts to calculate extreme waves, loads and response-based environmental design conditions in the North Sea. The method has been used extensively for the development of response-based design conditions and reliability assessments of fixed structures in the North Sea, Gulf of Mexico and the North-West Shelf of Australia.  
 ]
-
-#figure(
-  image("/img/expcat-L2.png", width: 120%),
-  caption: [Probability density for exposure level L2 ($P_f$ = 5E-4/y)]
-) <l2>
 
 The LSM tool (from a suite of Metocean tools within Shell) can produce base shears and overturning moments for extreme and abnormal return periods, from which $E_("rp")$ can be calculated. These formulations are from _$section$3.7 Typical Long Term Load Distributions_, EP97-5050@shell_ep97_5050:
 
@@ -192,14 +193,14 @@ The easiest way to use the above equation is to pick a range of RSR values in te
 One may notice some values in @rm that are either similar or close to those listed in $section$A.9.9.3.3, ISO 19902:2007.#footnote[Note, this section has been eliminated in the latest ISO 19902:2020 version.]
 
 #figure(
-  image("/img/pra-2.svg", width: 96%),
+  image("/img/pra-2.svg", width: 90%),
   caption: [
     Return period v. Reserve strength ratio
   ]
 ) <pr2>
 
 #figure(
-  image("/img/pra-1.svg", width: 96%),
+  image("/img/pra-1.svg", width: 90%),
   caption: [
     Return period v. Partial action factor
   ]

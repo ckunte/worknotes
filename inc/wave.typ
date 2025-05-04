@@ -24,9 +24,9 @@ The conventional way to generate hydrodynamic forces is by employing Morison's e
 
 $ F = F_"drag" + F_"inertia" $
 
-$ F_"drag" = 1/2 rho C_d D U |U| $
+$ F_"drag" = 1/2 rho C_d D U|U| $
 
-$ F_"inertia" = C_m rho V (partial U / partial t) $
+$ F_"inertia" = C_m rho V (partial U) / (partial t) $
 
 where,
 
@@ -36,15 +36,15 @@ where,
 - D -- effective width of tube (incl. marine fouling)
 - V -- displaced volume of tube per unit length respectively
 - U, |U| -- component of local water particle velocity vector normal to the tube, and its absolute value respectively
-- $ partial U / partial t$ -- component of the local water particle acceleration vector normal to the tube
+- $ (partial U) / (partial t)$ -- component of the local water particle acceleration vector normal to the tube
 
 The orbital velocity $U$ can be taken as the sum of $U_"wave"$ and $U_"current"$ (from the profile); where the angular frequency, $omega = (2 pi) / T$, and where $H$ and $T$ are wave height and associated period respectively. 
 
-$ U_"wave" = H omega (cosh(kappa z))(2 sinh(kappa d)) cos(omega t) $
+$ U_"wave" = H omega (cosh(kappa z) / (2 sinh(kappa d))) cos(omega t) $
 
 The wave orbital acceleration can be expressed as:
 
-$ (partial U / partial t) = -H omega^2 (cosh(kappa z) / 2 sinh(kappa d)) sin(omega t) $ 
+$ (partial U) / (partial t) = -H omega^2 (cosh(kappa z) / (2 sinh(kappa d))) sin(omega t) $ 
 
 The simplification here is that it does not account for marine-fouling, which would further expand the problem and the resulting code into an array of tube diameters. For a sense-check though, this seems sufficient.
 

@@ -4,9 +4,9 @@ When asked to compare the severity of sea-transportation between the _North Sea_
 
 #figure(
     table(
-      columns: (auto, 1fr, 1fr),
+      columns: 3,
       inset: 10pt,
-      align: horizon,
+      align: (left, horizon, horizon),
       [], [_North Sea_], [_South China Sea_],
       [Barge size], [>76m $times$ >23m], [91.4m $times$ 27.4m],
       [Roll ($alpha$, $T_r$)], [20$degree$, 10s], [12.5$degree$, 5s],
@@ -72,7 +72,7 @@ where,
 There is a reason full (motion) periods are engineered for manned vessels, which is to make motions humanely _tolerable_ as the graph in @hrvm shows.@journee_mt519
 
 #figure(
-  image("/img/tow_hra.png", width: 75%),
+  image("/img/tow_hra.png", width: 85%),
   caption: [Human response to vessel motions],
 ) <hrvm>
 
@@ -91,6 +91,8 @@ The effect of cargo position on sea-transport forces in unrestricted open-seas (
   caption: [Large vessels],
 ) <lv>
 
+where, $L_x$, $L_y$, and $L_z$ are are distances between barge centre of rotation and cargo centre of gravity in x (along barge length), y (along barge width), and z (vertical) respectively.
+
 #figure(
   image("/img/tow_mvessels.png", width: 90%),
   caption: [Medium vessels and large cargo barges],
@@ -105,8 +107,6 @@ The effect of cargo position on sea-transport forces in unrestricted open-seas (
   image("/img/tow_svessels.png", width: 90%),
   caption: [Small vessels],
 ) <sv>
-
-where, $L_x$, $L_y$, and $L_z$ are are distances between barge centre of rotation and cargo centre of gravity in x (along barge length), y (along barge width), and z (vertical) respectively.
 
 == Standard vessel types
 

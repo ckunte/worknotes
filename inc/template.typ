@@ -2,10 +2,10 @@
 // it as a simple fiction book.
 #let book(
   // The book's title.
-  title: [Book title],
+  title: none,
 
   // The book's author.
-  author: "Author",
+  author: none,
 
   // The paper size to use.
   paper: "a5",
@@ -26,6 +26,7 @@
   // Set the body font
   set text(
     font: "New Computer Modern",
+    size: 10pt,
     top-edge: "cap-height", 
     bottom-edge: "baseline",
     number-type: "old-style",

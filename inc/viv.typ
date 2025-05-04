@@ -8,9 +8,9 @@ Following the industry recognised recommended practice, DNVGL-RP-C205@dnvgl_rp_c
 
 #figure(
     table(
-      columns: (auto, 1fr),
+      columns: 2,
       inset: 10pt,
-      align: horizon,
+      align: (right, horizon),
       [_Excitation_], [_Lock-in_],
       [Inline], [$1.0 lt.eq v_r lt.eq 4.5$, and $K_s lt.eq 1.8$],
       [Crossflow], [$3.0 lt.eq v_r lt.eq 16.0$],

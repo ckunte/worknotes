@@ -11,13 +11,6 @@ In order to set a suitable design criteria, I am looking to compare two classes 
 
 The basic S-N curve equation is as follows, which one may know is from Paris-Erdogan law (fracture mechanics)@paris_erdogan:
 
-#figure(
-  image("/img/sncurves-table.png", width: 100%),
-  caption: [
-    Basic representative S-N curves, ISO 19902
-  ]
-) <snt>
-
 $ N = k_1 dot S^(-m) $
 
 The standard does describe it in its logarithmic form, which is as follows:
@@ -35,6 +28,13 @@ $ log_10 k_1 = 12.18 $
 then,
 
 $ k_1 = 10^(12.18) $
+
+#figure(
+  image("/img/sncurves-table.png", width: 100%),
+  caption: [
+    Basic representative S-N curves, ISO 19902
+  ]
+) <snt>
 
 Code for plotting hotspot stresses versus number of cycles is as follows.
 
